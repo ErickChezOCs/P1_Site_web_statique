@@ -4,20 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- using google fonts means linking the web page to google font API-->
+    <link rel="stylesheet" href="https://font.googleapis.com/css?family=Roboto">
     <title>Site Web Statique</title>
 </head>
 <body>
     <!-- De la maquette à la page statique-->
     <header>
-        <div class="logo"></div>
-        <nav>
-            <button>Accueil</button>
-            <button>Contact</button>
-        </nav>
+        <div class="logo">
+            <img src="./assets/logo_long.png" alt="logo de la société">
+        </div>
+        <div class="navi">
+            <nav>
+                <button>Accueil</button>
+                <button>Contact</button>
+            </nav>
+        </div>
+       
     </header>
     <main>
         <div class="bandeau">
-            <div class="logo_petit"></div>
+            <div class="arrplan">
+                
+            </div>
+            <div class="logopetit">
+                <img src="./assets/logo.png" width="140px" height="70px" alt="petit logo">
+            </div>
             <h1>Agence de graphisme</h1>
         </div>
         <div class="sous_bandeau">
@@ -34,7 +47,7 @@
                 <div class="mission">
                     <img src="" alt="">
                     <h3> STRATEGIE</h3>
-                    <p>Plutôt que de suggérer des graphismes à la mode, nous prenons le temps
+                    <p>plutôt que de suggérer des graphismes à la mode, nous prenons le temps
                         de comprendre vos objectifs et nous nous adaptons à vos besoins
                     </p>
                 </div>
@@ -46,9 +59,9 @@
             </div>
             <figure> 
                 <blockquote cite="https://wwww.nosclients.fr/restaurateurs/amandine">
-                    Mon petit graphisme est une excellente agence de graphisme.
+                    Mon petit graphisme est une excellente agence de graphisme.<br>
                     Les graphistes sont à l'écoute des besoins et m'ont permis
-                    de renouveler complétement la carte de mon restaurant 
+                    de<br> renouveler complétement la carte de mon restaurant 
                 </blockquote>
                 <figcaption>
                     Amandine, Restauratrice.
@@ -56,6 +69,38 @@
             </figure>
         </div>
     </main>
+    <footer>
+        <h4> Mon petit graphisme - Agence de graphisme basée à paris</h4>
+        <div class="reseaux">
+            <img src="twitter" alt="">
+            <img src="facebook" alt="">
+            <img src="instagram" alt="">
+        </div>
+        <div class="info">
+            <div class="encart">
+                <p>Accès rapides</p>
+                <ul>
+                    <li>Acuueil</li>
+                    <li> Contact</li>
+                </ul>
+            </div>
+            <div class="encart">
+                <p>A propos</p>
+                <ul>
+                    <li>Données personnelles</li>
+                    <li>Mentions légales</li>
+                    <li>Cookies</li>
+                </ul>
+            </div>
+            <div class="encart">
+                <p>Coordonnées</p>
+                <p> 10 Quai de la Charente<br>
+                    75019 Paris<br>
+                    01 23 45 67 89
+                </p>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>
