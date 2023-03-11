@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://font.googleapis.com/css?family=Roboto">
     <!-- using my own css file to overide w3.css where needed-->
     <link rel="stylesheet" href="style.css">
+    <!-- using font awesome for footer icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
     <title>Site Web Statique</title>
 </head>
 <body>
@@ -32,88 +34,121 @@
             </div>
          </nav> 
     </header>
-    <main class="container">
-        <div class= "arr_plan" > 
+    <main class="container-fluid text-center">
+        <div class= "position-relative" > 
             <img src="./assets/backgroung_image.jpg" alt="" class="aplan fill">
-            <img  src="./assets/logo_long.png" alt="petit logo" height="75px"  width="150px">   
-            <p class="centre" >Agence de graphisme</p>
+            <div class="position-absolute top-50 start-50 translate-middle">
+                <img class="autrecentre" src="./assets/logo_long.png" alt="petit logo" height="75px"  width="150px">   
+                <p class="text-white">Agence de graphisme</p>
+            </div>
+            
         </div>
         <!--
- 
-         
-           
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">ONE</div>
+                <div class="col">TWO</div>
+                <div class="col">THREE</div>
+            </div>
+        </div>
         -->
-        <div class="container">
-            <h3>Mon petit graphisme est une agence de graphisme qui aide 
-                les entreprises à créer des visuels attractifs.</h3>
-            <div class="container">
-                <div class="container">
-                    <img src="./assets/graphic-design.png" alt="">
-                    <h6> GRAPHISME</h6>
-                    <p>Que vous ayez besoin de graphisme pour un site web, 
-                        des cartes de visites ou des affiches, nous réalisons 
-                        des visuels dont vous serez fiers</p>
+        <div class="container-fluid">
+            <p class="text-center aerer">Mon petit graphisme est une agence de graphisme qui aide 
+                les entreprises à créer des visuels attractifs.</p>
+ <div class="row">  
+        <div class="col text-center ">
+            <img src="./assets/graphic-design.png" alt="graph">
+            <h6 class="aerer"> GRAPHISME</h6>
+            <p>Que vous ayez besoin de graphisme pour un site web, 
+                des cartes de visites ou des affiches, nous réalisons 
+                des visuels dont vous serez fiers</p>
+        </div>
+        <div class="col text-center">
+            <img src="./assets/strategie.png" alt="">
+            <h6 class="aerer"> STRATEGIE</h6>
+            <p>plutôt que de suggérer des graphismes à la mode, nous prenons le temps
+                de comprendre vos objectifs et nous nous adaptons à vos besoins
+            </p>
+        </div>
+        <div class="col text-center ">
+            <img src="./assets/illustrations.png" alt="">
+            <h6 class="aerer">ILLUSTRATIONS</h6>
+            <p>Nos graphistes vous proposeront des illustrations 100% originales</p>
+        </div>
+
+ </div>
+ <div class="citation">
+    <figure> 
+        <blockquote class="doubleaerer" cite="https://wwww.nosclients.fr/restaurateurs/amandine">
+            <p  >
+               <i>Mon petit graphisme est une excellente agence de graphisme.
+                Les graphistes sont à l'écoute des besoins et m'ont permis
+                de renouveler complétement la carte de mon restaurant 
+             </i> 
+            </p> 
+        </blockquote>
+        <figcaption>
+            Amandine, Restauratrice.
+        </figcaption>
+    </figure>
+
+  </div>
+</div>
+    </main>
+
+
+    <footer class=" container pied">
+        
+         <div class="container-fluid text-center">
+            <p> Mon petit graphisme - Agence de graphisme basée à paris</p>
+            <div class="row">
+                <div class="col">
+                    <i class="fa-regular fa-user"> </i>
+                    <img src="twitter" alt=""> 
                 </div>
-                <div class="container">
-                    <img src="./assets/strategie.png" alt="">
-                    <h6> STRATEGIE</h6>
-                    <p class="bg
-                    ">plutôt que de suggérer des graphismes à la mode, nous prenons le temps
-                        de comprendre vos objectifs et nous nous adaptons à vos besoins
-                    </p>
+                <div class="col">
+                    facebook
+                    <img src="facebook" alt="">
                 </div>
-                <div class="container">
-                    <img src="./assets/illustrations.png" alt="">
-                    <h6>ILLUSTRATIONS</h6>
-                    <p >Nos graphistes vous proposeront des illustrations 100% originales</p>
+                <div class="col">
+                    Instagram
+                    <img src="instagram" alt="">
                 </div>
             </div>
-            <figure> 
-                <blockquote  cite="https://wwww.nosclients.fr/restaurateurs/amandine">
-                    <p >
-                       <i>Mon petit graphisme est une excellente agence de graphisme.
-                        Les graphistes sont à l'écoute des besoins et m'ont permis
-                        de renouveler complétement la carte de mon restaurant 
-                     </i> 
-                    </p> 
-                </blockquote>
-                <figcaption>
-                    Amandine, Restauratrice.
-                </figcaption>
-            </figure>
-        </div>
-    </main>
-    <footer class=" container">
-        <h5> Mon petit graphisme - Agence de graphisme basée à paris</h5>
-        <div class="container">
-            <img src="twitter" alt="">
-            <img src="facebook" alt="">
-            <img src="instagram" alt="">
-        </div>
-        <div class="container">
-            <div class="container ">
-                <p >Accès rapides</p>
+         </div>
+        
+        
+        
+        <div class="infopied container-fluid">
+            <div class="row">
+                <div class="col">
+                    <p >Accès rapides</p>
                 <ul>
                     <li>Accueil</li>
                     <li> Contact</li>
                 </ul>
-            </div>
-            <div class="container">
-                 <p> A propos</p>
+
+                </div>
+                <div class="col">
+                    <p> A propos</p>
                 <ul>
                     <li>Données personnelles</li>
                     <li>Mentions légales</li>
                     <li>Cookies</li>
                 </ul>
-            </div>
-            <div class="container">
-                <p class="w3-text-blue">Coordonnées</p>
+
+                </div>
+                <div class="col">
+                    <p class="w3-text-blue">Coordonnées</p>
                 <p> 10 Quai de la Charente<br>
                     75019 Paris<br>
                     01 23 45 67 89
                 </p>
+                </div>
             </div>
+            
         </div>
+        
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
