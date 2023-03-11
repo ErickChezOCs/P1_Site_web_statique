@@ -18,6 +18,8 @@ body,h1,h2,h3,h4  {
 .citation{
     width: 100%;
     text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
 .doubleaerer{
    margin-top: 50px;
@@ -31,4 +33,13 @@ body,h1,h2,h3,h4  {
 }
 .infopied {
     margin-top: 50px;
+}
+.icone{
+    width: 35px;
+    height: 35px;
+}
+figure{
+    padding: 0;
+    margin-bottom: 75px;
+    border: 2px solid lightgoldenrodyellow;
 }
